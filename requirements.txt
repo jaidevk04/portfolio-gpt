@@ -1,0 +1,22 @@
+# Core
+python-dotenv
+requests
+pandas
+beautifulsoup4
+kiteconnect
+
+# Zerodha API
+kiteconnect
+
+# NLP / LLMs
+langchain
+sentence-transformers
+chromadb
+transformers
+torch
+
+# UI (for later)
+streamlit
+
+# Optional enhancements
+tqdm
