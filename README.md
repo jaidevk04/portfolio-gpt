@@ -1,6 +1,6 @@
-# 📊 PortfolioGPT: AI-Powered Zerodha Portfolio Analyzer
+# 📊 PortfolioGPT: AI-Powered Zerodha Portfolio Assistant
 
-**PortfolioGPT** is an open-source, full-stack application that seamlessly integrates with your Zerodha account to provide real-time, AI-driven insights into your investment portfolio. Built with **FastAPI** and a custom frontend, it leverages the power of AI to offer personalized analyses, news summaries, and performance metrics for your holdings.
+**PortfolioGPT** is an open-source, full-stack application that seamlessly integrates with your Zerodha account to provide real-time, AI-driven insights and assistance on your investment portfolio. Built with **FastAPI** and a custom frontend, it leverages the power of AI to offer personalized analyses, financial news summaries, and interactive conversations with a portfolio chatbot.
 
 ---
 
@@ -10,7 +10,7 @@
 
 - **AI-Generated Insights**: Utilizes advanced language models to summarize recent news and provide contextual insights for each stock in your portfolio.
 
-- **Interactive Query Handling**: Ask natural language questions about your portfolio, and receive detailed, AI-generated responses.
+- **Conversational Portfolio Assistant**: A powerful chatbot interface allows you to ask natural language questions like "Why is my portfolio down today?" or "What’s new with DRREDDY?"
 
 - **Top Gainers and Losers**: Automatically identifies and highlights the top-performing and worst-performing stocks in your portfolio.
 
@@ -31,7 +31,6 @@
 ### Installation
 
 **Clone the Repository**
-
 ```bash
 git clone https://github.com/yourusername/portfolio-gpt.git
 cd portfolio-gpt
@@ -103,8 +102,8 @@ portfolio-gpt/
 
 - **Data Retrieval**: Uses Zerodha's Kite Connect API to fetch real-time holdings data.
 - **Data Analysis**: Computes key metrics like total investment, current value, and net P&L.
-- **News Summarization**: Scrapes and summarizes the latest news using Gemini or Serper.
-- **Interactive Q&A**: Users ask questions in plain English, and the AI responds contextually.
+- **News Summarization**: Scrapes and summarizes the latest stock news using Gemini or Serper.
+- **Conversational Q&A**: Talk to the assistant in plain English and get back smart, data-aware answers about your portfolio.
 
 ---
 
@@ -151,4 +150,3 @@ If you find this useful, leave a ⭐ and spread the word.
 ## 📄 License
 
 **MIT License** — free to use, fork, and build on.
-
